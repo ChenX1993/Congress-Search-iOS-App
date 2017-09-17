@@ -9,9 +9,47 @@
 /* Begin PBXBuildFile section */
 		0501F6B51DDA903A009E43EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501F6B41DDA903A009E43EA /* AppDelegate.swift */; };
 		0501F6B71DDA903A009E43EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501F6B61DDA903A009E43EA /* ViewController.swift */; };
-		0501F6BA1DDA903A009E43EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0501F6B81DDA903A009E43EA /* Main.storyboard */; };
+		0501F6BA1DDA903A009E43EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0501F6B81DDA903A009E43EA /* Main.storyboard */; settings = {ASSET_TAGS = (tableview, ); }; };
 		0501F6BC1DDA903A009E43EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0501F6BB1DDA903A009E43EA /* Assets.xcassets */; };
 		0501F6BF1DDA903A009E43EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0501F6BD1DDA903A009E43EA /* LaunchScreen.storyboard */; };
+		0501F6C71DDA93FE009E43EA /* LegislatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501F6C61DDA93FE009E43EA /* LegislatorController.swift */; };
+		0501F6C91DDA96FC009E43EA /* BillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501F6C81DDA96FC009E43EA /* BillController.swift */; };
+		0521D39A1DE11A590090EFC9 /* LegDetailTaleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521D3991DE11A590090EFC9 /* LegDetailTaleController.swift */; };
+		0521D39C1DE1AFEB0090EFC9 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521D39B1DE1AFEB0090EFC9 /* CustomSearchBar.swift */; };
+		0521D39E1DE1B0DA0090EFC9 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521D39D1DE1B0DA0090EFC9 /* CustomSearchController.swift */; };
+		05236EA31DDF4E5300D1CB35 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05236EA11DDF4E5300D1CB35 /* ENSideMenu.swift */; };
+		05236EA41DDF4E5300D1CB35 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05236EA21DDF4E5300D1CB35 /* ENSideMenuNavigationController.swift */; };
+		05236EAA1DDF526400D1CB35 /* SideNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05236EA91DDF526400D1CB35 /* SideNavigationController.swift */; };
+		05236EAC1DDF54AC00D1CB35 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05236EAB1DDF54AC00D1CB35 /* SideMenuController.swift */; };
+		052564F41DE34B60004BA7A4 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052564F31DE34B60004BA7A4 /* AboutController.swift */; };
+		058BD6A61DDF7A9C001BD211 /* LegislatorDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD6A51DDF7A9C001BD211 /* LegislatorDetailController.swift */; };
+		058BD6A81DDFC496001BD211 /* LegislatorTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD6A71DDFC496001BD211 /* LegislatorTabBarController.swift */; };
+		058BD6AA1DDFCDB6001BD211 /* BillTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD6A91DDFCDB6001BD211 /* BillTabBarController.swift */; };
+		058BD6AC1DDFD366001BD211 /* LegHouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD6AB1DDFD366001BD211 /* LegHouseController.swift */; };
+		058BD6AE1DDFD38B001BD211 /* LegSenateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD6AD1DDFD38B001BD211 /* LegSenateController.swift */; };
+		05AB4F551DE2FA7A00B420A7 /* BillCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB4F541DE2FA7A00B420A7 /* BillCell1.swift */; };
+		05AB4F571DE2FB9700B420A7 /* BillController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB4F561DE2FB9700B420A7 /* BillController1.swift */; };
+		05AB4F591DE3011E00B420A7 /* BillDetailActiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB4F581DE3011E00B420A7 /* BillDetailActiveController.swift */; };
+		05AB4F5B1DE30B8500B420A7 /* BillDetailNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB4F5A1DE30B8500B420A7 /* BillDetailNewController.swift */; };
+		05AB4F5D1DE30F5800B420A7 /* BillDetailTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB4F5C1DE30F5800B420A7 /* BillDetailTableController.swift */; };
+		05BE89891DE31CA200571D93 /* ComTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE89881DE31CA200571D93 /* ComTabBarController.swift */; };
+		05BE898B1DE31FC900571D93 /* ComHouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE898A1DE31FC900571D93 /* ComHouseController.swift */; };
+		05BE898D1DE3207400571D93 /* ComSenateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE898C1DE3207400571D93 /* ComSenateController.swift */; };
+		05BE898F1DE320C600571D93 /* ComJointController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE898E1DE320C600571D93 /* ComJointController.swift */; };
+		05BE89951DE329CB00571D93 /* ComDetailTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE89941DE329CB00571D93 /* ComDetailTableController.swift */; };
+		05BE89991DE32AAD00571D93 /* ComSenateDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE89981DE32AAD00571D93 /* ComSenateDetailController.swift */; };
+		05BE899B1DE32ABC00571D93 /* ComJointDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE899A1DE32ABC00571D93 /* ComJointDetailController.swift */; };
+		05BE899D1DE32E8500571D93 /* ComHouseDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE899C1DE32E8500571D93 /* ComHouseDetailController.swift */; };
+		05C132DD1DE235C400EA3210 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C132DC1DE235C400EA3210 /* CoreData.framework */; };
+		05C132E01DE2366300EA3210 /* model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05C132DE1DE2366300EA3210 /* model.xcdatamodeld */; };
+		05C133261DE23DE300EA3210 /* databasecontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C133251DE23DE300EA3210 /* databasecontroller.swift */; };
+		05D0CDA81DE2F5CF002988F1 /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D0CDA71DE2F5CF002988F1 /* BillCell.swift */; };
+		05DF9FFE1DE1E7CA00CDBE87 /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DF9FFD1DE1E7CA00CDBE87 /* PickerController.swift */; };
+		05EAF2191DE336C200F7B097 /* FavoriteTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF2181DE336C200F7B097 /* FavoriteTabBarController.swift */; };
+		05EAF21B1DE337F100F7B097 /* FavoriteLegController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF21A1DE337F100F7B097 /* FavoriteLegController.swift */; };
+		05EAF21D1DE3381000F7B097 /* FavoriteBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF21C1DE3381000F7B097 /* FavoriteBillController.swift */; };
+		05EAF21F1DE3382200F7B097 /* FavoriteComController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAF21E1DE3382200F7B097 /* FavoriteComController.swift */; };
+		8D7DC3AF1DFE2CABB9580DDD /* Pods_homework9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0971DD3BF44779E91FF028 /* Pods_homework9.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +60,46 @@
 		0501F6BB1DDA903A009E43EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0501F6BE1DDA903A009E43EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0501F6C01DDA903A009E43EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0501F6C61DDA93FE009E43EA /* LegislatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorController.swift; sourceTree = "<group>"; };
+		0501F6C81DDA96FC009E43EA /* BillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillController.swift; sourceTree = "<group>"; };
+		0521D3991DE11A590090EFC9 /* LegDetailTaleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegDetailTaleController.swift; sourceTree = "<group>"; };
+		0521D39B1DE1AFEB0090EFC9 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		0521D39D1DE1B0DA0090EFC9 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
+		05236EA11DDF4E5300D1CB35 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		05236EA21DDF4E5300D1CB35 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		05236EA91DDF526400D1CB35 /* SideNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideNavigationController.swift; sourceTree = "<group>"; };
+		05236EAB1DDF54AC00D1CB35 /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		052564F31DE34B60004BA7A4 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		058BD6A51DDF7A9C001BD211 /* LegislatorDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorDetailController.swift; sourceTree = "<group>"; };
+		058BD6A71DDFC496001BD211 /* LegislatorTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorTabBarController.swift; sourceTree = "<group>"; };
+		058BD6A91DDFCDB6001BD211 /* BillTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTabBarController.swift; sourceTree = "<group>"; };
+		058BD6AB1DDFD366001BD211 /* LegHouseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegHouseController.swift; sourceTree = "<group>"; };
+		058BD6AD1DDFD38B001BD211 /* LegSenateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegSenateController.swift; sourceTree = "<group>"; };
+		05AB4F541DE2FA7A00B420A7 /* BillCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillCell1.swift; sourceTree = "<group>"; };
+		05AB4F561DE2FB9700B420A7 /* BillController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillController1.swift; sourceTree = "<group>"; };
+		05AB4F581DE3011E00B420A7 /* BillDetailActiveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailActiveController.swift; sourceTree = "<group>"; };
+		05AB4F5A1DE30B8500B420A7 /* BillDetailNewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailNewController.swift; sourceTree = "<group>"; };
+		05AB4F5C1DE30F5800B420A7 /* BillDetailTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailTableController.swift; sourceTree = "<group>"; };
+		05BE89881DE31CA200571D93 /* ComTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComTabBarController.swift; sourceTree = "<group>"; };
+		05BE898A1DE31FC900571D93 /* ComHouseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComHouseController.swift; sourceTree = "<group>"; };
+		05BE898C1DE3207400571D93 /* ComSenateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComSenateController.swift; sourceTree = "<group>"; };
+		05BE898E1DE320C600571D93 /* ComJointController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComJointController.swift; sourceTree = "<group>"; };
+		05BE89941DE329CB00571D93 /* ComDetailTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComDetailTableController.swift; sourceTree = "<group>"; };
+		05BE89981DE32AAD00571D93 /* ComSenateDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComSenateDetailController.swift; sourceTree = "<group>"; };
+		05BE899A1DE32ABC00571D93 /* ComJointDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComJointDetailController.swift; sourceTree = "<group>"; };
+		05BE899C1DE32E8500571D93 /* ComHouseDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComHouseDetailController.swift; sourceTree = "<group>"; };
+		05C132DC1DE235C400EA3210 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05C132DF1DE2366300EA3210 /* model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = model.xcdatamodel; sourceTree = "<group>"; };
+		05C133251DE23DE300EA3210 /* databasecontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = databasecontroller.swift; sourceTree = "<group>"; };
+		05D0CDA71DE2F5CF002988F1 /* BillCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
+		05DF9FFD1DE1E7CA00CDBE87 /* PickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
+		05EAF2181DE336C200F7B097 /* FavoriteTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTabBarController.swift; sourceTree = "<group>"; };
+		05EAF21A1DE337F100F7B097 /* FavoriteLegController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteLegController.swift; sourceTree = "<group>"; };
+		05EAF21C1DE3381000F7B097 /* FavoriteBillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteBillController.swift; sourceTree = "<group>"; };
+		05EAF21E1DE3382200F7B097 /* FavoriteComController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteComController.swift; sourceTree = "<group>"; };
+		4F2E9D87B7A7E908E21FE75C /* Pods-homework9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homework9.debug.xcconfig"; path = "Pods/Target Support Files/Pods-homework9/Pods-homework9.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0971DD3BF44779E91FF028 /* Pods_homework9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homework9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D294DC015A30B015AD2115E7 /* Pods-homework9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homework9.release.xcconfig"; path = "Pods/Target Support Files/Pods-homework9/Pods-homework9.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C132DD1DE235C400EA3210 /* CoreData.framework in Frameworks */,
+				8D7DC3AF1DFE2CABB9580DDD /* Pods_homework9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +120,10 @@
 			children = (
 				0501F6B31DDA903A009E43EA /* homework9 */,
 				0501F6B21DDA903A009E43EA /* Products */,
+				05236EA11DDF4E5300D1CB35 /* ENSideMenu.swift */,
+				05236EA21DDF4E5300D1CB35 /* ENSideMenuNavigationController.swift */,
+				71A15DD55C65CDD539CF91B7 /* Pods */,
+				B2142F79DD7508A5C4B8237D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +138,66 @@
 		0501F6B31DDA903A009E43EA /* homework9 */ = {
 			isa = PBXGroup;
 			children = (
+				05C133251DE23DE300EA3210 /* databasecontroller.swift */,
 				0501F6B41DDA903A009E43EA /* AppDelegate.swift */,
+				05C132DE1DE2366300EA3210 /* model.xcdatamodeld */,
 				0501F6B61DDA903A009E43EA /* ViewController.swift */,
+				058BD6A71DDFC496001BD211 /* LegislatorTabBarController.swift */,
+				058BD6A91DDFCDB6001BD211 /* BillTabBarController.swift */,
+				05BE89881DE31CA200571D93 /* ComTabBarController.swift */,
+				05EAF2181DE336C200F7B097 /* FavoriteTabBarController.swift */,
+				0501F6C61DDA93FE009E43EA /* LegislatorController.swift */,
+				058BD6AB1DDFD366001BD211 /* LegHouseController.swift */,
+				058BD6AD1DDFD38B001BD211 /* LegSenateController.swift */,
+				058BD6A51DDF7A9C001BD211 /* LegislatorDetailController.swift */,
+				0521D3991DE11A590090EFC9 /* LegDetailTaleController.swift */,
+				0501F6C81DDA96FC009E43EA /* BillController.swift */,
+				05AB4F561DE2FB9700B420A7 /* BillController1.swift */,
+				05AB4F581DE3011E00B420A7 /* BillDetailActiveController.swift */,
+				05AB4F5A1DE30B8500B420A7 /* BillDetailNewController.swift */,
+				05AB4F5C1DE30F5800B420A7 /* BillDetailTableController.swift */,
+				05BE898A1DE31FC900571D93 /* ComHouseController.swift */,
+				05BE898C1DE3207400571D93 /* ComSenateController.swift */,
+				05BE898E1DE320C600571D93 /* ComJointController.swift */,
+				05BE899C1DE32E8500571D93 /* ComHouseDetailController.swift */,
+				05BE89981DE32AAD00571D93 /* ComSenateDetailController.swift */,
+				05BE899A1DE32ABC00571D93 /* ComJointDetailController.swift */,
+				05BE89941DE329CB00571D93 /* ComDetailTableController.swift */,
+				05EAF21A1DE337F100F7B097 /* FavoriteLegController.swift */,
+				05EAF21C1DE3381000F7B097 /* FavoriteBillController.swift */,
+				05EAF21E1DE3382200F7B097 /* FavoriteComController.swift */,
+				052564F31DE34B60004BA7A4 /* AboutController.swift */,
 				0501F6B81DDA903A009E43EA /* Main.storyboard */,
+				05236EAB1DDF54AC00D1CB35 /* SideMenuController.swift */,
+				05236EA91DDF526400D1CB35 /* SideNavigationController.swift */,
+				0521D39B1DE1AFEB0090EFC9 /* CustomSearchBar.swift */,
+				0521D39D1DE1B0DA0090EFC9 /* CustomSearchController.swift */,
+				05DF9FFD1DE1E7CA00CDBE87 /* PickerController.swift */,
+				05D0CDA71DE2F5CF002988F1 /* BillCell.swift */,
+				05AB4F541DE2FA7A00B420A7 /* BillCell1.swift */,
 				0501F6BB1DDA903A009E43EA /* Assets.xcassets */,
 				0501F6BD1DDA903A009E43EA /* LaunchScreen.storyboard */,
 				0501F6C01DDA903A009E43EA /* Info.plist */,
 			);
 			path = homework9;
+			sourceTree = "<group>";
+		};
+		71A15DD55C65CDD539CF91B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F2E9D87B7A7E908E21FE75C /* Pods-homework9.debug.xcconfig */,
+				D294DC015A30B015AD2115E7 /* Pods-homework9.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2142F79DD7508A5C4B8237D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05C132DC1DE235C400EA3210 /* CoreData.framework */,
+				AE0971DD3BF44779E91FF028 /* Pods_homework9.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0501F6C31DDA903A009E43EA /* Build configuration list for PBXNativeTarget "homework9" */;
 			buildPhases = (
+				A2758DEAAAFA50C23324EBD5 /* [CP] Check Pods Manifest.lock */,
 				0501F6AD1DDA903A009E43EA /* Sources */,
 				0501F6AE1DDA903A009E43EA /* Frameworks */,
 				0501F6AF1DDA903A009E43EA /* Resources */,
+				F34E5512F69341720C0DB4D2 /* [CP] Embed Pods Frameworks */,
+				82AF544A0E99F17E82F12A22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,12 +229,17 @@
 		0501F6A91DDA903A009E43EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					TableView,
+					tableview,
+				);
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Evilsmile;
 				TargetAttributes = {
 					0501F6B01DDA903A009E43EA = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YZ4YGZ85KB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +275,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82AF544A0E99F17E82F12A22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-homework9/Pods-homework9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2758DEAAAFA50C23324EBD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F34E5512F69341720C0DB4D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-homework9/Pods-homework9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0501F6AD1DDA903A009E43EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BE899D1DE32E8500571D93 /* ComHouseDetailController.swift in Sources */,
+				058BD6A81DDFC496001BD211 /* LegislatorTabBarController.swift in Sources */,
+				05DF9FFE1DE1E7CA00CDBE87 /* PickerController.swift in Sources */,
+				05AB4F571DE2FB9700B420A7 /* BillController1.swift in Sources */,
+				058BD6A61DDF7A9C001BD211 /* LegislatorDetailController.swift in Sources */,
+				05AB4F5B1DE30B8500B420A7 /* BillDetailNewController.swift in Sources */,
+				05AB4F551DE2FA7A00B420A7 /* BillCell1.swift in Sources */,
+				05BE898F1DE320C600571D93 /* ComJointController.swift in Sources */,
+				05BE89991DE32AAD00571D93 /* ComSenateDetailController.swift in Sources */,
+				05BE898B1DE31FC900571D93 /* ComHouseController.swift in Sources */,
+				0521D39C1DE1AFEB0090EFC9 /* CustomSearchBar.swift in Sources */,
+				05EAF21F1DE3382200F7B097 /* FavoriteComController.swift in Sources */,
+				05236EA41DDF4E5300D1CB35 /* ENSideMenuNavigationController.swift in Sources */,
+				0521D39A1DE11A590090EFC9 /* LegDetailTaleController.swift in Sources */,
+				058BD6AA1DDFCDB6001BD211 /* BillTabBarController.swift in Sources */,
+				05236EAC1DDF54AC00D1CB35 /* SideMenuController.swift in Sources */,
 				0501F6B71DDA903A009E43EA /* ViewController.swift in Sources */,
+				052564F41DE34B60004BA7A4 /* AboutController.swift in Sources */,
 				0501F6B51DDA903A009E43EA /* AppDelegate.swift in Sources */,
+				05236EAA1DDF526400D1CB35 /* SideNavigationController.swift in Sources */,
+				05C132E01DE2366300EA3210 /* model.xcdatamodeld in Sources */,
+				058BD6AE1DDFD38B001BD211 /* LegSenateController.swift in Sources */,
+				05AB4F5D1DE30F5800B420A7 /* BillDetailTableController.swift in Sources */,
+				05236EA31DDF4E5300D1CB35 /* ENSideMenu.swift in Sources */,
+				05C133261DE23DE300EA3210 /* databasecontroller.swift in Sources */,
+				05EAF2191DE336C200F7B097 /* FavoriteTabBarController.swift in Sources */,
+				05BE89891DE31CA200571D93 /* ComTabBarController.swift in Sources */,
+				05AB4F591DE3011E00B420A7 /* BillDetailActiveController.swift in Sources */,
+				05EAF21D1DE3381000F7B097 /* FavoriteBillController.swift in Sources */,
+				05BE89951DE329CB00571D93 /* ComDetailTableController.swift in Sources */,
+				0521D39E1DE1B0DA0090EFC9 /* CustomSearchController.swift in Sources */,
+				05D0CDA81DE2F5CF002988F1 /* BillCell.swift in Sources */,
+				0501F6C91DDA96FC009E43EA /* BillController.swift in Sources */,
+				0501F6C71DDA93FE009E43EA /* LegislatorController.swift in Sources */,
+				058BD6AC1DDFD366001BD211 /* LegHouseController.swift in Sources */,
+				05BE898D1DE3207400571D93 /* ComSenateController.swift in Sources */,
+				05EAF21B1DE337F100F7B097 /* FavoriteLegController.swift in Sources */,
+				05BE899B1DE32ABC00571D93 /* ComJointDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +484,10 @@
 		};
 		0501F6C41DDA903A009E43EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2E9D87B7A7E908E21FE75C /* Pods-homework9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ4YGZ85KB;
 				INFOPLIST_FILE = homework9/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myfirsttry.homework9;
@@ -268,8 +498,10 @@
 		};
 		0501F6C51DDA903A009E43EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D294DC015A30B015AD2115E7 /* Pods-homework9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ4YGZ85KB;
 				INFOPLIST_FILE = homework9/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myfirsttry.homework9;
@@ -297,8 +529,22 @@
 				0501F6C51DDA903A009E43EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05C132DE1DE2366300EA3210 /* model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05C132DF1DE2366300EA3210 /* model.xcdatamodel */,
+			);
+			currentVersion = 05C132DF1DE2366300EA3210 /* model.xcdatamodel */;
+			path = model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0501F6A91DDA903A009E43EA /* Project object */;
 }
